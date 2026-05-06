@@ -27,7 +27,7 @@
     images: true
     images_filters:
       dangling: false
-    networks: true
+    #networks: true
     volumes: true
     builder_cache: true
   when: result_status_container.stdout == 'running\r\n'
