@@ -29,7 +29,7 @@
       - /opt/guacamole:/etc/guacamole
     env:
       GUACAMOLE_HOME: "/etc/guacamole"
-      GUACD_HOSTNAME: "{{ ansible_default_ipv4.address }}"
+      GUACD_HOSTNAME: "guacd"
       GUACD_PORT: "4822"
       LDAP_HOSTNAME: "{{ guacd_ldap_hostname }}"
       LDAP_PORT: "{{ guacd_ldap_port }}"
